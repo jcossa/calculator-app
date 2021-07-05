@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="theme2">
+
+  <div class="container">
+   <div class="content">
+    <section class="header">
+      <h2 class="calc-title">calc</h3>
+      <div class="theme-section">
+        <span class="theme-numbers">
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+        </span>
+        <div class="theme">
+            <p class="label-theme">THEME</p>
+            <label for="" class="radio-label">
+              <input type="radio" name="radio" id="radio1" class="btn-radio">
+              <input type="radio" name="radio" id="radio2" class="btn-radio" checked>
+              <input type="radio" name="radio" id="radio3" class="btn-radio">
+              <label class="togglee"></label>
+            </label>
+        </div>
+      </div>
+    </section>
+    <section class="screen">
+      <p class="values" id="display"></p>
+    </section>
+    <section class="keypad">
+      <button class="btn" value="7">7</button>
+      <button class="btn" value="8">8</button>
+      <button class="btn" value="9">9</button>
+      <button class="btn-del" value="del">DEL</button>
+      <button class="btn" value="4">4</button>
+      <button class="btn" value="5">5</button>
+      <button class="btn" value="6">6</button>
+      <button class="btn" value="+">+</button>
+      <button class="btn" value="1">1</button>
+      <button class="btn" value="2">2</button>
+      <button class="btn" value="3">3</button>
+      <button class="btn" value="-">-</button>
+      <button class="btn" value=".">.</button>
+      <button class="btn" value="0">0</button>
+      <button class="btn" value="/">/</button>
+      <button class="btn" value="x">x</button>
+      <button class="btn-reset" value="reset">RESET</button>
+      <button class="btn-equal" value="=">=</button>
+    </section>
+   </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Jerson Vicente Cossa</a>.
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
